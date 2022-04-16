@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="HTML Guide">
+    <meta name="keywords" content="HTML webpage tag sample tutorial">
+    <title>Miyami HTML tutorial hub</title>
+  </head>
+  <body>
+    <table cellspacing=20>
+      <tr>
+        <td>
+          <img src=".\myimage\picture.png" alt="Miyami Profile Picture" style="width:140px;height:140px;">
+        </td>
+        <td>
+          <h2>Hello world, I am Miyami. Welcome to my HTML tutorial</h1>
+          <p>In the text, it's suggest using <em>emphasis</em> (rather than italic) and <strong>strong</strong> (rather than bold) for the SEO reason.
+          <br>there's 'p' for paragraph and 'h1' to 'h6' as header of the paragraph
+          <br>addition, there's 'br' for line-break and 'hr' for horizontal line</p>
+        </td>
+      </tr>
+    </table>
+    <hr>
+
+    <h3>2 types of list i.e 'ol' order list and 'ul' unorder list</h3>
+    <p>When working with list, table etc. struture from bottom to top:</p>
+    <h3>Step for creating list:</h3>
+    <ol type=i>
+      <li>written down the list line by line with 'li' tag</li>
+      <li>block the 'li' with :</li>
+            <ul>
+            <li>un order list ie. 'ul' OR</li>
+            <li>order list ie. 'ol' with para type = a, i, or 1</li>
+            </ul>
+    </ol>
+    <hr>
+    <h3>Step for creating table:</h3>
+    <ol type=1>
+      <li>structure out the MAIN ELEMENT 'thead' ; 'tbody' ; 'tfoot' within the'table'.</li>
+      <li>with CSS style, the main element can be different looking and different control</li>
+      <li>for each element, layout the number of rows 'tr'. the 'tr' is the main key</li>
+      <li>for each row 'tr', it either contains table header'th' OR table data 'td'</li>
+      <li>can use rowspan="2" or colspan="" on the td if necessary</li>
+      <li>the header 'th' can be either horizontl / verticle</li>
+    </ol>
+
+    <table border=0 cellspacing=5>
+      <thead>
+        <tr>
+          <th>Sites</th>
+          <th>Links</th>
+          <th>Rate</th>
+          <th>Remark</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Dev Hints</td>
+          <td><a href="https://devhints.io/">Click me</></td>
+          <td>Good</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Code Pen Live!</td>
+          <td><a href="https://codepen.io/pen/">Click me</></td>
+          <td>Best</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>W3 School</td>
+          <td><a href="https://www.w3schools.com/">Click me</></td>
+          <td>OK</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>HTML Cheat Sheet Live!</td>
+          <td><a href="https://htmlcheatsheet.com/">Click me</></td>
+          <td>Good</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>MDN Mozilla</td>
+          <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">Click me</></td>
+          <td>OK</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Sweet side</td>
+          <td colspan="2">Data n/a with column span of 2</td>
+          <td>:) XOX</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <table>
+          <tr>
+            <th  colspan="2">Skill Attributes</th>
+          </tr>
+          <tr>
+            <td>HTML</td>
+            <td>level 5</td>
+          </tr>
+          <tr>
+            <td>Python</td>
+            <td>level 4</td>
+          </tr>
+        </table>
+      </tfoot>
+    </table>
+<hr>
+<h3>About HTML form and <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input">input</a></h3>
+
+<form action="mailto:simworld@live.com" method="post" enctype="text/plain">
+  <label>Name:</label>
+  <input type="text" name="var1" value=""><br>
+  <label>Email:</label>
+  <input type="text" name="var2" value=""><br>
+  <label>Message:</label><br>
+  <textarea name="var3" rows="10" cols="100">This is text area</textarea>
+  <br><input type="submit" name="">
+</form>
+
+
+  </body>
+</html>
